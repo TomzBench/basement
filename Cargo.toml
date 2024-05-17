@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+	"basement",
+	"basement-macros",
+]
+
+[workspace.dependencies.basement]
+path = "./basement"
+
+[workspace.dependencies.basement-macros]
+path = "./basement-macros"
